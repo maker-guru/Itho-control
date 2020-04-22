@@ -1,0 +1,20 @@
+References
+
+
+
+
+
+
+References reverse engineering Itho RTF module and protocol:
+
+https://diystuff.nl/embedded/itho-rf-protocol/
+https://www.progz.nl/blog/2015/05/19/reverse-engineering-remote-itho-cve-eco-rft-part-6/
+https://gathering.tweakers.net/forum/list_messages/1690945/0
+https://www.maredana.nl/itho-mechanical-ventilation-with-esp8266/
+https://github.com/incmve/Itho-WIFI-remoteMQTT
+https://gathering.tweakers.net/forum/list_messages/1690945
+
+
+References Raspberry Pi
+Pinout: https://elinux.org/RPi_Low-level_peripherals#General_Purpose_Input.2FOutput_.28GPIO.29
+

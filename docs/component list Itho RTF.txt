@@ -1,0 +1,48 @@
+ComponentList:
+ANT: PCB Antenna
+BAT: Battery holder CR2032 3V Lithium
+C1: ?
+C2: 100nF
+C3: ?
+C4: 100nF
+C5: 600pF
+C6: 100nF
+C7: 600pF ?
+C8: 100nF
+C9: ?
+C10: ?
+C11: ?
+C12: ?
+C13: ?
+C14: ?
+C15: 10nF
+C16: 10nF
+C17: 10nF
+C18: 10nF
+C19: 100nF
+C20: 100nF
+C21: 100nF
+C22: 100nF
+C23: 100nF
+K1: Programming connector
+L1: ?
+L2: ?
+L3: ?
+L4: ?
+Q1: FDPUC (did not find it yet, probably a transistor)
+Q2: SRARBF (also did not find this part yet, probably a voltage regulator)
+Q3: AT MEGA169PV
+Q4: CC1150
+R1: 56K
+R2: 1K
+R3: 1K
+R4: 1K
+R5: 1K
+R6: 100K
+R7: 100M
+R8: 10E
+SW1..SW4: Switches
+TP1..TP27: Testpoints
+X1: ASN26.00A1
+
+As you see they use a standard ATMega controller and an RF chip (TI 1150) for sending information to the other unit. On the print I also noticed a lot of TestPoints. It turns out that every netlist has been exposed by a TestPoint (except for the oscilator, antenna and bias pins). From the contoller the power of the RF chip is enabled by Q1. This is done to save power when there is no transmission needed.
