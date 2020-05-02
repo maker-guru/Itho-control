@@ -32,7 +32,7 @@ def read_humidity_temp():
 	h,t = DHT.read(DHT_SENSOR,DHT_PIN)
 	return h,t
 
-def read_retry_humidity_temp():
+def read_retry_humidity_temp(retries=15,delay_seconds=2):
 	h,t = DHT.read_retry(DHT_SENSOR,DHT_PIN)
 	return h,t
 
