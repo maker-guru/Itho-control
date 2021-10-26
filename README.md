@@ -15,10 +15,10 @@ Installing Python library for reading DHT22/AM2302 sensor
 
 Starting at boot
 A systemd service is used to let program run when the pi boots. Copy file fanctl.service (as su) to /etc/systemd/system/fanctl.service. After copying the service can be start/stopped with
-	sudo systemctl start fanctlr.service
-	sudo systemctl stop fanctlr.service
+	sudo systemctl start fanctl.service
+	sudo systemctl stop fanctl.service
 To have it start automatically at boot:
-	sudo systemctl enable fanctlr.service
+	sudo systemctl enable fanctl.service
 More info on creating services for rpi can be found at: https://www.raspberrypi.org/documentation/linux/usage/systemd.md
 
 Status updates and measurements are available on port 6776. Each line is formatted as:
