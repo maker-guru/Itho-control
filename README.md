@@ -12,6 +12,9 @@ Installing Python library for reading DHT22/AM2302 sensor
 	sudo apt-get install python-dev
 	git clone https://github.com/adafruit/Adafruit_Python_DHT
 	cd Adafruit\_Python\_DHT && sudo python setup.py install
+	
+For MQTT the paho library is required. This libary can be installed with
+	pip install paho-mqtt
 
 Starting at boot
 A systemd service is used to let program run when the pi boots. Copy file fanctl.service (as su) to /etc/systemd/system/fanctl.service. After copying the service can be start/stopped with
